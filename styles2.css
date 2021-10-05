@@ -78,6 +78,7 @@ h1:hover{
   cursor: crosshair;
 }
 body{
-  background-image: url(https://picsum.photos/1920);
+  background-image: url(background.jpg);
+  background-attachment: fixed;
   text-align: center;
 }
