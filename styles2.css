@@ -73,10 +73,11 @@ h1{
   font-family: 'Times New Roman', Times, serif;
 }
 h1:hover{
-  color:white;
+  color:rgb(223, 68, 68);
   transition: 0.5;
   cursor: crosshair;
 }
 body{
   background-image: url(https://picsum.photos/1920);
+  text-align: center;
 }
