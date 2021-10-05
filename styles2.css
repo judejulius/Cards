@@ -8,17 +8,20 @@ body {
 .card {
   width: 20%;
   display: inline-block;  
-  box-shadow: 2px 2px 20px black;
+  box-shadow: 2px 2px 20px rgb(112, 107, 107);
+  backdrop-filter: blur( 4px );
   border-radius: 12px;
   margin: 2%;
+  padding: 20px;
   background-color: white;
-  border: 10px solid black;
+  /* border: 10px solid black; */
 }
 .image img {
   height:200px;
   width: 100%;
   border-top-right-radius: 5px;
   border-top-left-radius: 5px;
+  border: 1px solid black;
 }
 
 .title {
@@ -52,9 +55,10 @@ button:hover {
   cursor: pointer;
 }
 button{
-  background-color:red;
-  border-color: royalblue;
-  border-radius: 25%;
+  background-color: grey;
+  border-color: 1px solid black;
+  border-radius: 50px;
+
 }
 li{
   color: black;
@@ -62,7 +66,7 @@ li{
 p{
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   height:50px;
-  overflow: hidden;
+  overflow: scroll;
 }
 h1{
   font-family: 'Times New Roman', Times, serif;
