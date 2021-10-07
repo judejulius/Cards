@@ -78,7 +78,7 @@ h1:hover{
   cursor: crosshair;
 }
 body{
-  background-image: url(background.jpg);
+  background-image: url(images/back.jpg);
   background-attachment: fixed;
   text-align: center;
 }
